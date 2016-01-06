@@ -1,7 +1,7 @@
-var Network = require('../index.js')
+var Network = require('../')
 var tape = require('tape')
-var network = new Network()
-var network2 = new Network()
+var network = Network.createServer()
+var network2 = Network.createServer()
 var stream1
 var stream2
 
@@ -17,7 +17,7 @@ tape('stream test', function (it) {
   it.test('simple test', function (t) {
     network.listen(internals.port, internals.host, function () {
       network2.listen(internals.port + 1, internals.host, function () {
-        network.connect({
+        Network.dial({
           port: internals.port + 1,
           address: internals.host
         })

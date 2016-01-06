@@ -1,4 +1,4 @@
-const Network = require('../index.js')
+const Network = require('net')
 const tape = require('tape')
 
 var internals = {
@@ -43,7 +43,8 @@ tape('[Network]: Peer Messages', function (it) {
 
     network.connect({
       port: internals.port + 1,
-      address: internals.host
+      address: internals.host,
+      id: new Buffer() //TODO 
     })
   })
 

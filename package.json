@@ -45,6 +45,7 @@
     "levelup": "^1.2.1",
     "memdown": "^1.0.0",
     "mocha": "^2.1.0",
+    "multiaddr": "^1.1.1",
     "standard": "^5.4.1",
     "tape": "^4.4.0"
   }
