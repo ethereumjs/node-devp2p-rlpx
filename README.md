@@ -1,5 +1,5 @@
 # devp2p-rlpx - COMING SOON
-[![NPM Package](https://img.shields.io/npm/v/devp2p.svg?style=flat-square)](https://www.npmjs.org/package/devp2p-rlpx)
+[![NPM Package](https://img.shields.io/npm/v/devp2p-rlpx.svg?style=flat-square)](https://www.npmjs.org/package/devp2p-rlpx)
 [![Build Status](https://img.shields.io/travis/ethereumjs/node-devp2p.svg?branch=master&style=flat-square)](https://travis-ci.org/ethereumjs/node-devp2p-rlpx)
 [![Coverage Status](https://img.shields.io/coveralls/ethereumjs/node-devp2p.svg?style=flat-square)](https://coveralls.io/r/ethereumjs/node-devp2p-rlpx)
 [![Gitter](https://img.shields.io/gitter/room/ethereum/ethereumjs-lib.svg?style=flat-square)](https://gitter.im/ethereum/ethereumjs-lib) or #ethereumjs on freenode  
