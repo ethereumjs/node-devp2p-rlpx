@@ -26,14 +26,14 @@
   },
   "homepage": "https://github.com/ethereum/ethereumjs-p2p",
   "dependencies": {
-    "async": "^1.4.2",
+    "async": "^2.1.2",
     "bigi": "^1.4.0",
-    "buffer-xor": "^1.0.3",
-    "devp2p-dpt": "1.0.1",
+    "buffer-xor": "^2.0.1",
+    "devp2p-dpt": "2.0.0",
     "ecurve": "^1.0.1",
-    "ethereumjs-util": "2.4.0",
+    "ethereumjs-util": "5.0.1",
     "rlp": "2.0.0",
-    "secp256k1": "^2.0.7",
+    "secp256k1": "^3.2.2",
     "server-destroy": "^1.0.0",
     "sha3": "^1.1.0",
     "underscore": "^1.8.3"
@@ -44,9 +44,9 @@
     "istanbul": "^0.4.1",
     "levelup": "^1.2.1",
     "memdown": "^1.0.0",
-    "mocha": "^2.1.0",
-    "multiaddr": "^1.1.1",
-    "standard": "^5.4.1",
+    "mocha": "^3.1.2",
+    "multiaddr": "^2.1.1",
+    "standard": "^8.5.0",
     "tape": "^4.4.0"
   }
 }
